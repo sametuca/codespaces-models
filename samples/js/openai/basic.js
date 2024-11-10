@@ -13,7 +13,7 @@ export async function main() {
   const response = await client.chat.completions.create({
     messages: [
         { role:"system", content: "You are a helpful assistant." },
-        { role:"user", content: "What is the capital of France?" }
+        { role:"user", content: "bana bir sayı söyle" }
       ],
       model: modelName,
       // Optional parameters
